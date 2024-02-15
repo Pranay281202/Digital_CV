@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Pranay Dilip Salkar"
 PAGE_ICON = "📋"
 NAME = "Pranay Dilip Salkar"
 DESCRIPTION = """
-Data Science Enthusiast, seeking to gain hands-on experience in data science and leverage my skills to drive value for organizations.
+I'm passionate about data science and eager to get practical experience. I want to use my skills to help organizations succeed.
 """
 
 PROJECTS = {
