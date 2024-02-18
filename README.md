@@ -2,7 +2,8 @@
 Link for my digital resume: https://pranay-digital-resume.streamlit.app/
 
 ## Introduction
-Hi and thanks for taking a look at my digital resume! This project shows my skills and projects in an interactive and visually appealing way. It's not just a regular document; think of it like an online portfolio where you can see what I can do and learn about my professional background and achievements.
+Hi and thanks for taking a look at my digital resume! This project shows my skills and projects in an interactive and visually appealing way.
+It's not just a regular document; think of it like an online portfolio where you can see what I can do and learn about my professional background and achievements.
 
 ## Features
 - Interactive navigation: Easily navigate through different sections of the resume.
