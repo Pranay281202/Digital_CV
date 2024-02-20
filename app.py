@@ -2,19 +2,6 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
-st.markdown(
-    """
-    <style>
-        body {
-            background-image: url('machine-learning.jpg.webp');  /* Replace 'your_image_url.jpg' with the URL or path to your image */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
