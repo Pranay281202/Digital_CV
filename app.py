@@ -3,6 +3,29 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
+ st.markdown(
+    """
+    <style>
+      .stApp {
+          background-image: url(data:image/png;base64,"""+encoded_string.decode()+""");
+          background-size: cover;
+      }
+      .css-6qob1r.e1fqkh3o3 {
+        background-image: url(data:image/png;base64,"""+encoded_string1.decode()+""");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .css-1avcm0n.e8zbici2 {
+        background-image: url(data:image/png;base64,"""+encoded_string2.decode()+""");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>"""
+    ,
+    unsafe_allow_html=True
+    )
+add_bg_from_local([r'machine-learning.jpg.webp'])
+
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
