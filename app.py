@@ -3,28 +3,47 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-st.markdown(
-    """
+import streamlit as st
+
+# Function to encode the image to Base64
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return data.encode('base64').decode()
+
+# Path to your image file
+image_path = "machine-learning.jpg.webp"
+
+# Encode the image to Base64
+encoded_string = get_base64_of_bin_file(image_path)
+
+# Set the background image using CSS
+background_css = f"""
     <style>
-      .stApp {
-          background-image: url(data:image/png;base64,"""+encoded_string.decode()+""");
-          background-size: cover;
-      }
-      .css-6qob1r.e1fqkh3o3 {
-        background-image: url(data:image/png;base64,"""+encoded_string1.decode()+""");
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .css-1avcm0n.e8zbici2 {
-        background-image: url(data:image/png;base64,"""+encoded_string2.decode()+""");
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-    </style>"""
-    ,
-    unsafe_allow_html=True
-    )
-add_bg_from_local([r'machine-learning.jpg.webp'])
+        body {{
+            background-image: url(data:image/png;base64,{encoded_string});
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }}
+    </style>
+"""
+
+# Set the Streamlit page configuration
+st.set_page_config(
+    page_title="Your App Title",
+    page_icon="🌟",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+# Inject the background CSS
+st.markdown(background_css, unsafe_allow_html=True)
+
+# Your app content goes here
+st.title("Streamlit App with Background Image")
+st.write("This is a Streamlit app with a custom background image.")
+
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
