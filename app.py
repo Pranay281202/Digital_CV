@@ -2,7 +2,6 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image
-
 import streamlit as st
 
 
@@ -136,4 +135,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Pranay Dilip Salkar  |  Last updated: March 2024')
+st.write('© Pranay Dilip Salkar  |  Last updated: April 2024')
