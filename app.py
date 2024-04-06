@@ -17,6 +17,7 @@ PAGE_TITLE = "Digital CV | Pranay Dilip Salkar"
 PAGE_ICON = "📋"
 NAME = "Pranay Dilip Salkar"
 DESCRIPTION = """
+As a recent graduate in Data Science, my goal is to dive into the corporate world to put my knowledge into action and grow as a professional.
 I'm passionate about data science and eager to get practical experience. I want to use my skills to help organizations succeed.
 """
 
