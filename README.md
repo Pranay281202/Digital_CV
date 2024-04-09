@@ -8,7 +8,6 @@ It's not just a regular document; think of it like an online portfolio where you
 ## Features
 - Interactive navigation:- Easily navigate through different sections of the resume.
 - Project showcase:- Discover my notable projects with descriptions and links.
-- Profile picture:- Get a glimpse of the person behind the resume.
 - Contact information:- Find ways to get in touch with me for collaboration or inquiries.
 
 ## Technologies Used
