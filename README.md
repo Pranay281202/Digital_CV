@@ -1,5 +1,5 @@
 # Digital Resume
-]Digital resume link: https://pranay-digital-resume.streamlit.app/
+Digital resume link: https://pranay-digital-resume.streamlit.app/
 
 ## Introduction
 Hello and thanks for taking a look at my digital resume! This project shows my skills and projects in an interactive and visually appealing way.
