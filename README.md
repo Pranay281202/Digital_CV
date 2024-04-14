@@ -11,7 +11,7 @@ It's not just a regular document; think of it like an online portfolio where you
 - Contact information:- Find ways to get in touch with me for collaboration or inquiries.
 
 ## Technologies Used
-- Python:- Streamlit framework for building the web application.
+- Python:- Streamlit framework for building web application.
 - HTML/CSS:- Styling and layout of the web pages.
 - PIL(Python Imaging Library):- Displaying images, including the resume and profile picture.
 Note:- Every section which may include certificates are clickable so please click on the text itself to view the certificates.
