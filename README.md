@@ -6,9 +6,9 @@ Hello and thanks for taking a look at my digital resume! This project shows my s
 It's not just a regular document; think of it like an online portfolio where you can see what I can do and learn about my professional background and achievements.
 
 ## Features
-- Interactive navigation:- Easily navigate through different sections of the resume.
-- Project showcase:- Discover my notable projects with descriptions and links.
-- Contact information:- Find ways to get in touch with me for collaboration or inquiries.
+- Interactive Navigation:- Easily navigate through different sections of the resume.
+- Project Showcase:- Discover my notable projects with descriptions and links.
+- Contact Information:- Find ways to get in touch with me for collaboration or inquiries.
 
 ## Technologies Used
 - Python:- Streamlit framework for building web application.
