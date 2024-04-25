@@ -16,5 +16,5 @@ It's not just a regular document; think of it like an online portfolio where you
 - PIL(Python Imaging Library):- Displaying images, including the resume and profile picture.
 Note:- Every section which may include certificates are clickable so please click on the text itself to view the certificates.
 
-Thankyou for visiting my digital resume! I hope you find it informative and engaging.
+Thankyou for visiting my digital resume. I hope you find it informative and engaging.
 If you have any questions or would like to connect, feel free to reach out to me.
