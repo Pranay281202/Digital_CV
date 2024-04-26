@@ -106,6 +106,7 @@ for project, link in PROJECTS.items():
 st.write('\n')
 st.subheader("Certifications")
 st.write("---")
+st.write("⭐ [Data Science and Analytics with Advanced ML Track](https://drive.google.com/file/d/1ycorUogvm0WmUfbCisSfg1RxvBRDMehI/view?usp=sharing)")
 st.write("⭐ [SQL Basic by Great learning](https://www.linkedin.com/posts/pranay-dilip-salkar_1000-free-courses-with-free-certificates-activity-7080074138630897665-4Sul?utm_source=share&utm_medium=member_desktop)")
 st.write("⭐ [Advanced MS – Excel By KES Shroff College](https://drive.google.com/file/d/1Qsd7ftgDbqns-CN0_Kkga7Dtxzxtdw4V/view?usp=sharing)")
 st.write("⭐ [Recommender System By KES Shroff College](https://drive.google.com/file/d/1Kv2hYn9hG6-w2aZBciz3RIZnJlzSDIaN/view?usp=drive_link)")
