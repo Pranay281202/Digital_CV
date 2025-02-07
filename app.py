@@ -135,4 +135,4 @@ with col4:
 
 # Add footer
 st.write('---')
-st.write('© Pranay Dilip Salkar  |  Last updated: july 2024')
+st.write('© Pranay Dilip Salkar  |  Last updated: Feb 2025')
